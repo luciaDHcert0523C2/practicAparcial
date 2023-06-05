@@ -1,0 +1,25 @@
+    3  cd Desktop
+    4  cd DH2023
+    5  cd repaso
+    6  mkdir Hobbies "Comidas Preferidas" "Programas de Tv Favoritos" "Comandos utilizados"
+    7  cd "Comidas Preferidas"
+    8  touch 1.txt 2.txt 3.txt
+    9  cp * ../Hobbies/
+   10  cd .. 
+   11  cp Hobbies/1.txt Hobbies/2.txt Hobbies/3.txt "Programas de Tv Favoritos"
+   12  touch "Comandos utilizados"/command.txt
+   13  git init
+   14  git status
+   15  git add .
+   16  git status
+   17  git commit -m "Commit 1 de Lu"
+   18  git status
+   19  git log
+   20  git remote add origin https://github.com/luciaDHcert0523C2/practicAparcial.git
+   21  git remote -v
+   22  git push origin main
+   23  git branch hotfix
+   24  git branch
+   25  git switch hotfix
+   26  history 20
+   27  history 25 > Comandos\ utilizados/command.txt 
